@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "840406740093",
+    "project_id": "meopay-api",
+    "storage_bucket": "meopay-api.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:840406740093:android:980e34e9b6d88b3c809514",
+        "android_client_info": {
+          "package_name": "br.com.meopay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "840406740093-vvucuf03ss98f59k7pbfv0d877i015g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCfhUhTy_OfGo1BFJLCTm3isZ91legW-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "840406740093-vvucuf03ss98f59k7pbfv0d877i015g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

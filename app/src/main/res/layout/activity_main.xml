@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ac.MainActivity">
+
+        <ImageView
+            android:id="@+id/mainLogoImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="50dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/picpay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <!--<TextView
+            android:id="@+id/txtSubHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="Soluções em Meios de Pagamento"
+            android:padding="16dp"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainLogoImage"/> -->
+
+        <!--<Button
+            android:id="@+id/btn_sale"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/ic_baseline_credit_card_24"
+            android:padding="16dp"
+            android:text="Contratar seguro cartão"
+            android:textColor="@color/colorDefault"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainLogoImage" />-->
+
+        <Button
+            android:id="@+id/btn_manual_payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/border"
+            android:padding="16dp"
+            android:text="Seguro carteira"
+            android:textColor="@color/colorDefault"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mainLogoImage" />
+
+       <!-- <Button
+            android:id="@+id/btn_sale_commision"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="8dp"
+            android:text="Venda Comissionada"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:drawableTop="@drawable/ic_baseline_supervisor_account_36"
+            android:padding="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_manual_payment" />-->
+
+        <!--<Button
+            android:id="@+id/btn_options"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border"
+            android:drawableTop="@drawable/ic_baseline_add_circle_outline_36"
+            android:padding="16dp"
+            android:text="Mais Opções"
+            android:textColor="@color/colorDefault"
+            app:layout_constraintStart_toEndOf="@+id/btn_sale"
+            app:layout_constraintStart_toStartOf="@+id/btn_sale"
+            app:layout_constraintTop_toBottomOf="@+id/btn_sale" />-->
+
+
+        <!--<Button
+            android:id="@+id/btn_cancellation"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Cancelamento"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_baseline_remove_circle_outline_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtSubHeader" />
+
+        <Button
+            android:id="@+id/btn_reprint"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Reimpressão"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_baseline_receipt_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_cancellation" />
+
+        <Button
+            android:id="@+id/btn_updae_products"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Atualizar produtos"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_baseline_cloud_download_24"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_reprint" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

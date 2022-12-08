@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MenuOptionActivity">
+
+    <TextView
+        android:id="@+id/txtOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:text="Escolha uma das opções"
+        android:padding="16dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorDefault"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
+
+    <Button
+            android:id="@+id/btn_cancellation"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Estorno"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_baseline_remove_circle_outline_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtOption"/>
+
+        <Button
+            android:id="@+id/btn_reprint"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Reimpressão"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_baseline_receipt_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_cancellation" />
+
+        <Button
+            android:id="@+id/btn_updae_products"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Atualizar produtos"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/border"
+            android:textColor="@color/colorDefault"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/ic_baseline_cloud_download_24"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_reprint" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Sair"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/border"
+            android:textColor="@color/colorRed"
+            android:padding="16dp"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_updae_products" />
+
+
+        <Button
+            android:id="@+id/btn_back_option"
+            android:layout_width="410dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Cancelar"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorYellowBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
